@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">App1.0</string>
+    <string name="head">Введите коэффициенты a, b, c:</string>
+</resources>

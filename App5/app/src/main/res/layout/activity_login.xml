@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:t="http://schemas.android.com/tools"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    t:context=".AddActivity"
+    a:orientation="vertical"
+    >
+    <TextView
+        a:id="@+id/login_head"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:gravity="center"
+        a:text="@string/login"
+        a:textAlignment="center"
+        a:textSize="34sp"
+        a:fontFamily="@font/roboto"
+        a:layout_margin="10dp"
+        />
+
+    <EditText
+        a:id="@+id/login_edit_text"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_marginHorizontal="10dp"
+        a:background="@drawable/edittext"
+        a:gravity="center"
+        a:hint="@string/login_hint"
+        a:inputType="none"
+        a:minHeight="48dp"
+        a:padding="5dp"
+        a:text=""
+        a:textSize="24sp"
+        a:fontFamily="@font/roboto"
+        a:importantForAutofill="no" />
+
+    <TextView
+        a:id="@+id/login_error_text"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_marginHorizontal="10dp"
+        a:layout_marginTop="5dp"
+        a:layout_marginBottom="10dp"
+        a:fontFamily="@font/roboto"
+        a:text="@string/login_error_message"
+        a:textSize="18sp"
+        a:visibility="visible"
+        a:textColor="#FFAAAAAA"
+
+        />
+
+    <EditText
+        a:id="@+id/password_edit_text"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:background="@drawable/edittext"
+        a:gravity="center"
+        a:hint="@string/password_hint"
+        a:inputType="textPassword"
+        a:minHeight="48dp"
+        a:padding="5dp"
+        a:text=""
+        a:textSize="24sp"
+        a:fontFamily="@font/roboto"
+        a:importantForAutofill="no"
+        a:layout_marginHorizontal="10dp"
+        />
+
+    <TextView
+        a:id="@+id/password_error_text"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_marginHorizontal="10dp"
+        a:layout_marginBottom="10dp"
+        a:fontFamily="@font/roboto"
+        a:text="@string/password_error_message"
+        a:textSize="18sp"
+        a:visibility="visible"
+        a:textColor="#FFAAAAAA"
+        a:layout_marginTop="5dp"
+        />
+
+    <Button
+        a:id="@+id/login_button"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:gravity="center"
+        a:text="@string/login_button"
+        a:textSize="20sp"
+        a:layout_gravity="center_horizontal"
+        a:fontFamily="@font/roboto"
+        />
+
+    <Button
+        a:id="@+id/registration_button"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:gravity="center"
+        a:text="@string/registration_button"
+        a:textSize="20sp"
+        a:layout_gravity="center_horizontal"
+        a:fontFamily="@font/roboto"
+        />
+
+    <Button
+        a:id="@+id/drop_button"
+        a:textSize="20sp"
+        a:gravity="center"
+        a:layout_gravity="center_horizontal"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:text="@string/clear"
+        a:fontFamily="@font/roboto"
+        />
+
+</LinearLayout>

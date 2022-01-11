@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Список студентов 131-ПИо</string>
+    <string name="plus">+</string>
+    <string name="add_student">Добавить студента</string>
+    <string name="Full_Name">ФИО</string>
+    <string name="Full_Name_Hint">Введите ФИО целиком</string>
+    <string name="Gender">Пол</string>
+    <string name="Gender_Hint">Введите пол</string>
+    <string name="PL">Языки программирования</string>
+    <string name="PL_Hint">Введите языки программирования</string>
+    <string name="IDE">IDE</string>
+    <string name="IDE_Hint">Введите IDE</string>
+    <string name="SaveButton">Сохранить</string>
+</resources>

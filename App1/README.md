@@ -1,0 +1,1 @@
+Android app for solving the quadratic equation problem

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Работа с файлами</string>
+    <string name="info">Программа осуществляет запись и чтение файлов следующих форматов:\n- txt\n- csv\n- xml\n- json</string>
+    <string name="Button_file_open">Открыть файл</string>
+    <string name="txt">Открыть txt файл</string>
+    <string name="csv">Открыть csv файл</string>
+    <string name="xml">Открыть xml файл</string>
+    <string name="json">Открыть json файл</string>
+    <string name="txt_head">Это - текстовый документ формата .txt</string>
+    <string name="csv_head">Это - текстовый документ формата .csv</string>
+    <string name="xml_head_visual">Это - визуальное представление формата .xml</string>
+    <string name="xml_head_text">Это - текстовое представление формата .xml</string>
+    <string name="json_head_visual">Это - визуальное представление формата .json</string>
+    <string name="json_head_text">Это - текстовое представление формата .json</string>
+    <string name="save_file">Сохр. в файл</string>
+    <string name="enter_text">Введите текст</string>
+    <string name="add_parameter">Доб. студента</string>
+    <string name="add_student_head">Добавление параметра \"Студент\"</string>
+    <string name="change_student_head">Изменение параметра \"Студент\"</string>
+    <string name="full_name">ФИО</string>
+    <string name="full_name_hint">Введите полные фамилию, имя, отчество</string>
+    <string name="gender">Пол</string>
+    <string name="gender_enter">Введите пол</string>
+    <string name="programming_lang">ЯП</string>
+    <string name="enter_lang">Введите языки программиорования</string>
+    <string name="IDE_enter">Введите среды разработки</string>
+    <string name="save">Сохранить</string>
+    <string name="update_from_file">Обн. из файла</string>
+</resources>
